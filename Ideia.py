@@ -7,5 +7,5 @@ class Ideia():
         self.proposta = ''
         
     def __repr__(self):
-        print('Link: %s \n Descrição da proposta: %s' % (self.link, self.proposta))
+        return 'Descrição da proposta: %s' % (self.proposta)
 
